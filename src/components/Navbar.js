@@ -6,8 +6,11 @@ function Navbar() {
     <>
     <nav className="navbar">
     <div className="navbar-containder">
-     <Link></Link>
+     <img src="Travel_site_logo.png" alt="navbar-logo">
+    
+
     </div>
+
     </nav>
     </>
   )
