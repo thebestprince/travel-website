@@ -11,7 +11,8 @@ function Navbar() {
       <Link>
      <img src="Travel_site_logo.png" alt="navbar-logo"/>
      </Link>
-
+     <div className='menu-icon'></div>
+     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
     </div>
 
     </nav>
