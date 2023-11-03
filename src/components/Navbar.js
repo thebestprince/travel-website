@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Travel_logo from '../images/Travel_logo.png';
+import './Navbar.css';
+import { Button } from './Button';
 
 
 function Navbar() {
@@ -19,6 +21,7 @@ function Navbar() {
   };
 
   window.addEventListener('resize', showButton);
+  
   return (
     <>
     <nav className="navbar">
