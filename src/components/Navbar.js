@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import Travel_logo from '../images/Travel_logo.png';
+import Travel_logo from './images/Travel_logo.png';
 import './Navbar.css';
 import { Button } from './Button';
 
